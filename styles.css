@@ -1,0 +1,29 @@
+.body{
+  margin: 0px;
+}
+.pages{
+  background-color: #555252;
+  text-align: right;
+  color: #fff;
+  list-style: none;
+  padding:20px;
+}
+
+.pages > li{
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.pages > li > a{
+  font-family: 'Arial';
+  text-decoration: none;
+  color: #fff;
+}
+
+.pages > li > button{
+  font-size: 22px;
+}
+
+.myndatext{
+  display: inline-block;
+}
