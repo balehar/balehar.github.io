@@ -7,7 +7,14 @@
   text-align: right;
   color: #fff;
   list-style: none;
-  padding:20px;
+  padding:0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height:auto;
+  margin-top: 0%;
 }
 .header{
   background-image: url(bg.jpg);
@@ -16,6 +23,7 @@
   padding: 0px;
   text-align: center;
   background-size: cover;
+  background-position: center center;
 }
 
 .sirkill{
