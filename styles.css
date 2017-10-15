@@ -1,0 +1,67 @@
+.body{
+  margin: 0px;
+}
+.pages{
+  background-color: #555252;
+  text-align: right;
+  color: #fff;
+  list-style: none;
+  padding:20px;
+}
+
+.button {
+  max-width: 16em;
+  width: 100%;
+  padding: 10px 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #eee;
+  background-color: #666;
+  font-size: 1em;
+  cursor: pointer;
+  border: 1px solid #666;
+  border-radius: 0.25em;
+  white-space: nowrap;
+  text-align: center;
+}
+
+  .button:hover {
+    background-color: #333;
+  }
+    .button--inverted {
+      color: #666;
+      background-color: #eee;
+    }
+      .button--inverted:hover {
+        color: #333;
+        background-color: #ccc;
+      }
+      .button--disabled {
+        color: #999;
+        background-color: #eee;
+        border: #eee;
+        cursor: default;
+      }
+      .button--disabled:hover {
+      background-color: #eee;
+      cursor: default;
+    }
+
+.pages > li{
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.pages > li > a{
+  font-family: 'Arial';
+  text-decoration: none;
+  color: #fff;
+}
+
+.pages > li > button{
+  font-size: 22px;
+}
+
+.myndatext{
+  display: inline-block;
+}
