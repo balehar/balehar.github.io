@@ -1,5 +1,6 @@
 .body{
   margin: 0px;
+  padding: 0px;
 }
 .pages{
   background-color: #555252;
@@ -24,6 +25,11 @@
   font-size: 22px;
 }
 
+.ritvel{
+  width: auto;
+  height: auto;
+}
+
 .containerTikk{
   display: flex;
 }
@@ -33,9 +39,6 @@
 
 }
 .containerTikk > img{
-  float: right
-  margin-left: 10px;
-
 
 }
 
