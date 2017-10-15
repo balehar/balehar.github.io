@@ -9,9 +9,8 @@
   padding:20px;
 }
 
-<<<<<<< HEAD
 .button {
-  max-width: 16em;
+  max-width: 250px;
   width: 100%;
   padding: 10px 5px;
   text-overflow: ellipsis;
@@ -24,6 +23,8 @@
   border-radius: 0.25em;
   white-space: nowrap;
   text-align: center;
+  margin:0;
+  display: inline-block;
 }
 
   .button:hover {
@@ -48,8 +49,6 @@
       cursor: default;
     }
 
-=======
->>>>>>> 84c1bc1e802342f07de94f9f747a33c527ace9a7
 .pages > li{
   display: inline-block;
   padding-right: 20px;
@@ -65,22 +64,21 @@
   font-size: 22px;
 }
 
-<<<<<<< HEAD
 .myndatext{
   display: inline-block;
-=======
+}
 .containerTikk{
   display: flex;
 }
+
 .Tikk{
   float: left;
   overflow: auto;
 
 }
 .containerTikk > img{
-  float: right
+  float: right;
   margin-left: 10px;
-
 
 }
 
@@ -90,5 +88,4 @@
 
 .folkmynd{
   flex: 1;
->>>>>>> 84c1bc1e802342f07de94f9f747a33c527ace9a7
 }
