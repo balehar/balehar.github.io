@@ -24,6 +24,25 @@
   font-size: 22px;
 }
 
+.containerTikk{
+  display: flex;
+}
+.Tikk{
+  float: left;
+  overflow: auto;
+
+}
+.containerTikk > img{
+  float: right
+  margin-left: 10px;
+
+
+}
+
 .myndatext{
-  display: inline-block;
+  display: flex;
+}
+
+.folkmynd{
+  flex: 1;
 }
