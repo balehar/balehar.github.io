@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Kaupa</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <ul class="pages">
+      <li><a href="x">Fooþjónustan</a></li>
+      <li><a href="x">Um</a></li>
+      <li><button type="button" value="Kaupa" onclick="window.location.href='kaupa.html'">Kaupa</button></li>
+    </ul>
+
+    <div id="header">
+      <h1>Kaupa</h1>
+      <button type="button"> Kaupa </button>
+    </div>
+
+    <form>
+      <fieldset>
+        <legend> Persónuupplýsingar </legend>
+        <label for="Nafn"> Nafn: </label>
+        <br>
+        <input id="Nafn" required= "" type="text">
+        <br>
+        <label for="Kennitala"> Kennitala: </label>
+        <br>
+        <input id="Kennitala" placeholder="123456-7890" type="text">
+        <br>
+        <br>
+        Kyn
+        <br>
+        <input id="kona" name="kyn" type="radio">
+        <label for="kona">Kona</label>
+        <br>
+        <input id="karl" name="kyn" type="radio">
+        <label for="karl" >Karl</label>
+        <br>
+        <input id="annad" name="kyn" type="radio">
+        <label for="annad" >Annað</label>
+        <br>
+        <br>
+        <label for="Simi"> Sími: </label>
+        <br>
+        <input id="Simi" required= "" placeholder="+354 842 3542" type="tel">
+        <br>
+        <label for="heimilisfang"> Heimilisfang: </label>
+        <br>
+        <input id="heimilisfang"  type="text">
+        <br>
+        <input id="check" type="checkbox" checked>
+        <label for="check">Skrá mig á póstlista</label>
+        <br>
+      </fieldset>
+      <fieldset>
+        <legend> Greiðsluuplýsingar </legend>
+        <label for="kort"> Greiða með: </label>
+        <br>
+        <select id="kort">
+          <option>Kreditkort</option>
+          <option>Debitkort</option>
+        </select>
+        <br>
+        <label for="Nafn_kort"> Nafn á korti: </label>
+        <br>
+        <input id="Nafn_kort" required= "" type="text">
+        <br>
+        <label for="Kortanumer"> Kortanúmer: </label>
+        <br>
+        <input id="Kortanumer" placeholder="5999-9999-9999-99990" type="text">
+        <br>
+        <label for="man"> Mán </label>
+        <input id="man" type="number">
+        <label for="ar"> Ár </label>
+        <input id="ar" type="number">
+        <select name='expireMM' id='expireMM'>
+    <option value=''>Month</option>
+    <option value='01'>January</option>
+    <option value='02'>February</option>
+    <option value='03'>March</option>
+    <option value='04'>April</option>
+    <option value='05'>May</option>
+    <option value='06'>June</option>
+    <option value='07'>July</option>
+    <option value='08'>August</option>
+    <option value='09'>September</option>
+    <option value='10'>October</option>
+    <option value='11'>November</option>
+    <option value='12'>December</option>
+</select>
+      </fieldser>
+      <fieldser>
+        <br>
+        <br>
+        <input class="button" type="submit" value="Panta">
+      </fieldser>
