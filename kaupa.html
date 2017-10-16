@@ -1,9 +1,10 @@
 <!doctype html>
-<html lang="is">
+<html class="grid" lang="is">
   <head>
     <meta charset="utf-8"/>
     <title>Kaupa</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="grid.css">
   </head>
   <body>
 
@@ -20,68 +21,70 @@
     </div>
 
     <form>
-      <div class="form">
-        <div class= "left" >
-          <h3> Persónuupplýsingar </h3>
-          <label for="Nafn"> Nafn: </label>
+      <div class="grid">
+        <div class="form">
+          <div class= "left" >
+            <h3> Persónuupplýsingar </h3>
+            <label for="Nafn"> Nafn: </label>
+            <br>
+            <input id="Nafn" required= "" type="text">
+            <br>
+            <label for="Kennitala"> Kennitala: </label>
+            <br>
+            <input id="Kennitala" placeholder="123456-7890" type="text">
+            <br>
+            <br>
+            Kyn
+            <br>
+            <input id="kona" name="kyn" type="radio">
+            <label for="kona">Kona</label>
+            <br>
+            <input id="karl" name="kyn" type="radio">
+            <label for="karl" >Karl</label>
+            <br>
+            <input id="annad" name="kyn" type="radio">
+            <label for="annad" >Annað</label>
+            <br>
+            <br>
+            <label for="Simi"> Sími: </label>
+            <br>
+            <input id="Simi" required= "" placeholder="+354 842 3542" type="tel">
+            <br>
+            <label for="heimilisfang"> Heimilisfang: </label>
+            <br>
+            <input id="heimilisfang"  type="text">
+            <br>
+            <input id="check" type="checkbox" checked>
+            <label for="check">Skrá mig á póstlista</label>
+            <br>
+          </div>
+          <div class="right">
+            <h3> Greiðsluuplýsingar </h3>
+            <label for="kort"> Greiða með: </label>
+            <br>
+            <select id="kort">
+              <option>Kreditkort</option>
+              <option>Debitkort</option>
+            </select>
+            <br>
+            <label for="Nafn_kort"> Nafn á korti: </label>
+            <br>
+            <input id="Nafn_kort" required= "" type="text">
+            <br>
+            <label for="Kortanumer"> Kortanúmer: </label>
+            <br>
+            <input id="Kortanumer" placeholder="5999-9999-9999-99990" type="text">
+            <br>
+            <label for="man"> Mán </label>
+            <input id="man" type="number">
+            <label for="ar"> Ár </label>
+            <input id="ar" type="number">
+          </div>
           <br>
-          <input id="Nafn" required= "" type="text">
-          <br>
-          <label for="Kennitala"> Kennitala: </label>
-          <br>
-          <input id="Kennitala" placeholder="123456-7890" type="text">
-          <br>
-          <br>
-          Kyn
-          <br>
-          <input id="kona" name="kyn" type="radio">
-          <label for="kona">Kona</label>
-          <br>
-          <input id="karl" name="kyn" type="radio">
-          <label for="karl" >Karl</label>
-          <br>
-          <input id="annad" name="kyn" type="radio">
-          <label for="annad" >Annað</label>
-          <br>
-          <br>
-          <label for="Simi"> Sími: </label>
-          <br>
-          <input id="Simi" required= "" placeholder="+354 842 3542" type="tel">
-          <br>
-          <label for="heimilisfang"> Heimilisfang: </label>
-          <br>
-          <input id="heimilisfang"  type="text">
-          <br>
-          <input id="check" type="checkbox" checked>
-          <label for="check">Skrá mig á póstlista</label>
           <br>
         </div>
-        <div class="right">
-          <h3> Greiðsluuplýsingar </h3>
-          <label for="kort"> Greiða með: </label>
-          <br>
-          <select id="kort">
-            <option>Kreditkort</option>
-            <option>Debitkort</option>
-          </select>
-          <br>
-          <label for="Nafn_kort"> Nafn á korti: </label>
-          <br>
-          <input id="Nafn_kort" required= "" type="text">
-          <br>
-          <label for="Kortanumer"> Kortanúmer: </label>
-          <br>
-          <input id="Kortanumer" placeholder="5999-9999-9999-99990" type="text">
-          <br>
-          <label for="man"> Mán </label>
-          <input id="man" type="number">
-          <label for="ar"> Ár </label>
-          <input id="ar" type="number">
+        <div class="panta">
+          <input class="button" type="submit" value="Panta">
         </div>
-        <br>
-        <br>
-      </div>
-      <div class="panta">
-        <input class="button" type="submit" value="Panta">
       </div>
     </form>
