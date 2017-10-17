@@ -41,7 +41,7 @@
   margin-top: 40px;
 }
 
-.head_k{
+.head_k {
   background-image: url(bg-subpage.jpg);
   width: 110%;
   padding: 12px;
@@ -79,7 +79,6 @@
   flex: 2.5;
   margin-left: 13%;
   flex-wrap: wrap;
-  margin-bottom: 20px;
 }
 .left{
   flex: 2;
