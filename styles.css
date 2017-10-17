@@ -27,20 +27,19 @@
   padding: 0;
   color: black;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   position: relative;
 }
 .textHeader{
   text-align: center;
-  padding-top:7em;
+  padding-top: 6.5em;
   font-size: 40px;
-  max-width: 100%;
-}
-.takkiHeader > button{
-  font-size: 25px;
-  margin-top: 40px;
 }
 
+.takkiHeader{
+  font-size: 0.5em;
+  text-align: center;
+}
 .head_k{
   background-image: url(bg-subpage.jpg);
   width: 110%;
@@ -157,14 +156,15 @@
 
 }
 
-
 .myndatext{
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
 }
 
 .folkmynd{
   flex: 1;
+  flex-wrap: wrap;
 }
 .folkText{
   font-style: italic;
