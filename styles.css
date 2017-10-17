@@ -94,13 +94,22 @@
 
 .form{
   display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 .right{
   flex: 1;
   padding-left: 20px;
+  flex: 2.5;
+  margin-left: 13%;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 .left{
   flex: 1;
+  flex: 2;
+  margin-left: 13%;
+  flex-wrap: wrap;
 }
 .button {
   max-width: 250px;
