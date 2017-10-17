@@ -1,9 +1,10 @@
 .body{
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
 }
 .pages{
-  background-color: #555252;
+  background-color: black;
   opacity: 0.9;
   text-align: right;
   color: #fff;
@@ -17,14 +18,27 @@
   height:auto;
   margin: 0%;
 }
+
 .header{
   background-image: url(bg.jpg);
+  max-width: 100%;
   width: 100%;
-  height: 50%;
-  padding: 0px;
-  text-align: center;
+  height: 55em;
+  padding: 0;
+  color: black;
   background-size: cover;
   background-position: center center;
+  position: relative;
+}
+.textHeader{
+  text-align: center;
+  padding-top:7em;
+  font-size: 40px;
+  max-width: 100%;
+}
+.takkiHeader > button{
+  font-size: 25px;
+  margin-top: 40px;
 }
 
 .head_k{
@@ -48,18 +62,29 @@
 
 .sirkill{
   width: 50%;
-  height: 25%;
+  height: 50%;
+  float: right;
+  flex:1;
+  margin: 0em 0em 2em 0em;
+
+
 }
 
 .form{
   display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 .right{
-  flex: 1;
-  padding-left: 20px;
+  flex: 2.5;
+  margin-left: 13%;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 .left{
-  flex: 1;
+  flex: 2;
+  margin-left: 13%;
+  flex-wrap: wrap;
 }
 .button {
   max-width: 250px;
@@ -117,34 +142,86 @@
   font-size: 22px;
 }
 
-.ritvel{
-  max-width: 16em;
-  height: 100%;
-  width: 100%;
+.sector{
+  text-align: center;
+  margin-top: 6em;
+  margin-bottom: 6em
 }
 
 .containerTikk{
   display: flex;
+  margin: 12em 0em 8em 0em;
+
 }
 
 .Tikk{
-  float: left;
-  overflow: auto;
+  text-align: right;
+}
+
+.check{
+  height: 2%;
+  width:2%;
 
 }
-.containerTikk > img{
 
-}
 
 .myndatext{
   display: flex;
+  text-align: center;
 }
 
 .folkmynd{
   flex: 1;
 }
+.folkText{
+  font-style: italic;
+}
 
 .img-circle{
   border-radius: 50%;
+  height:20em;
+  width: 20em;
   padding-top: 1em;
+  flex:1;
+  max-width: 100%;
+}
+div{
+  width: 100%;
+  height: 100%;
+}
+
+.FooterFam{
+  background-color: #666;
+  color: #fff;
+  padding:0px;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height:auto;
+  margin: 0%;
+}
+.footer{
+  list-style: none;
+  text-align: center;
+  display: flex;
+  padding-right: 2.5em;
+  padding-top: 1.5em;
+  padding-bottom: 3em;
+  border-bottom: solid;
+  border-color: grey;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer > li{
+  flex: 1;
+
+
+}
+.footer2{
+list-style: none;
+text-align: center;
+padding: 1em;
 }
