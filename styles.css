@@ -96,6 +96,7 @@
   justify-content: center;
   margin-left: -20px;
   margin-right: -20px;
+  font-size: 2em;
 }
 
 .form{
@@ -265,3 +266,32 @@ list-style: none;
 text-align: center;
 padding: 1em;
 }
+
+.um {
+  display: flex;
+  margin-left: 6%;
+  max-width: 88%;
+}
+.um_vh{
+display: inline-flex;
+max-width: 95%;
+}
+.um_v{
+  margin-left: 6%;
+  margin-right: 15%;
+}
+.um_h{
+
+}
+
+blockquote .quot {
+  font-size: 1.4em;
+  line-height: 1.5;
+  font-style: italic;
+ }
+
+blockquote .hofund {
+    padding: 24px;
+    font-size: 1em;
+    font-style: normal;
+  }
