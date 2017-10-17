@@ -10,7 +10,7 @@
   opacity: 0.9;
   text-align: right;
   color: #fff;
-  padding:0.5em ;
+  padding:0.5em;
   position: fixed;
   top: 0;
   left: 0;
@@ -30,6 +30,15 @@
 }
 .navbar strong{
   float: left;
+  margin-left: 0.5em;
+  font-size: 1.5em;
+}
+.navbar button{
+  margin-right: 1em;
+  width: 4em;
+  height: 2em;
+  text-align: center;
+
 }
 
 
