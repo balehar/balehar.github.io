@@ -1,92 +1,93 @@
 <!doctype html>
 <html lang="is">
-  <head>
-    <meta charset="utf-8"/>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <title>Kaupa</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="grid.css">
-    <link rel="stylesheet" href="styleguide.css">
-  </head>
-  <body>
-    <div class="navbar">
-  <a href="index.html"><strong>Fooþjónustan</strong></a>
-  <a id="um" href="um.html">Um</a>
-  <input type="button" value="Kaupa" onclick="window.location.href='kaupa.html'" />
-    </div>
 
-    <div class="head_k">
-      <strong class="head_font">Kaupa</strong>
-    </div>
+<head>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <title>Kaupa</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="styleguide.css">
+</head>
 
-    <form>
-      <div>
-        <div class="form">
-          <div class= "left" >
-            <h3> Persónuupplýsingar </h3>
-            <label for="Nafn"> Nafn: </label>
-            <br>
-            <input id="Nafn" required= "" type="text">
-            <br>
-            <br>
-            <label for="Kennitala"> Kennitala: </label>
-            <br>
-            <input id="Kennitala" placeholder="123456-7890" type="text">
-            <br>
-            <br>
-            Kyn
-            <br>
-            <input id="kona" name="kyn" type="radio">
-            <label for="kona">Kona</label>
-            <br>
-            <br>
-            <input id="karl" name="kyn" type="radio">
-            <label for="karl" >Karl</label>
-            <br>
-            <br>
-            <input id="annad" name="kyn" type="radio">
-            <label for="annad" >Annað</label>
-            <br>
-            <br>
-            <label for="Simi"> Sími: </label>
-            <br>
-            <input id="Simi" required= "" placeholder="+354 842 3542" type="tel">
-            <br>
-            <br>
-            <label for="heimilisfang"> Heimilisfang: </label>
-            <br>
-            <input id="heimilisfang"  type="text">
-            <br>
-            <br>
-            <input id="check" type="checkbox" checked>
-            <label for="check">Skrá mig á póstlista</label>
-            <br>
-          </div>
-          <div class="right">
-            <h3> Greiðsluuplýsingar </h3>
-            <label for="kort"> Greiða með: </label>
-            <br>
-            <select id="kort">
+<body>
+  <div class="navbar">
+    <a href="index.html"><strong>Fooþjónustan</strong></a>
+    <a id="um" href="um.html">Um</a>
+    <input type="button" value="Kaupa" onclick="window.location.href='kaupa.html'" />
+  </div>
+
+  <div class="head_k">
+    <strong class="head_font">Kaupa</strong>
+  </div>
+
+  <form>
+    <div>
+      <div class="form">
+        <div class="left">
+          <h3> Persónuupplýsingar </h3>
+          <label for="Nafn"> Nafn: </label>
+          <br>
+          <input id="Nafn" required="" type="text">
+          <br>
+          <br>
+          <label for="Kennitala"> Kennitala: </label>
+          <br>
+          <input id="Kennitala" placeholder="123456-7890" type="text">
+          <br>
+          <br> Kyn
+          <br>
+          <input id="kona" name="kyn" type="radio">
+          <label for="kona">Kona</label>
+          <br>
+          <br>
+          <input id="karl" name="kyn" type="radio">
+          <label for="karl">Karl</label>
+          <br>
+          <br>
+          <input id="annad" name="kyn" type="radio">
+          <label for="annad">Annað</label>
+          <br>
+          <br>
+          <label for="Simi"> Sími: </label>
+          <br>
+          <input id="Simi" required="" placeholder="+354 842 3542" type="tel">
+          <br>
+          <br>
+          <label for="heimilisfang"> Heimilisfang: </label>
+          <br>
+          <input id="heimilisfang" type="text">
+          <br>
+          <br>
+          <input id="check" type="checkbox" checked>
+          <label for="check">Skrá mig á póstlista</label>
+          <br>
+        </div>
+        <div class="right">
+          <h3> Greiðsluuplýsingar </h3>
+          <label for="kort"> Greiða með: </label>
+          <br>
+          <select id="kort">
               <option>Kreditkort</option>
               <option>Debitkort</option>
             </select>
-            <br>
-            <br>
-            <label for="Nafn_kort"> Nafn á korti: </label>
-            <br>
-            <input id="Nafn_kort" required= "" type="text">
-            <br>
-            <br>
-            <label for="Kortanumer"> Kortanúmer: </label>
-            <br>
-            <input id="Kortanumer" placeholder="5999-9999-9999-99990" type="text">
-            <br>
-            <br>
-            <label>Gildistími:</label>
-            <br>
-            <label for="man"> Mán </label>
-            <select id="man" name="man">
+          <br>
+          <br>
+          <label for="Nafn_kort"> Nafn á korti: </label>
+          <br>
+          <input id="Nafn_kort" required="" type="text">
+          <br>
+          <br>
+          <label for="Kortanumer"> Kortanúmer: </label>
+          <br>
+          <input id="Kortanumer" placeholder="5999-9999-9999-99990" type="text">
+          <br>
+          <br>
+          <label>Gildistími:</label>
+          <br>
+          <label for="man"> Mán </label>
+          <select id="man" name="man">
               <option value="01">01</option>
               <option value="02">02</option>
               <option value="03">03</option>
@@ -100,33 +101,31 @@
               <option value="11">11</option>
               <option value="12">12</option>
             </select>
-            <label for="ar"> Ár </label>
-            <select id="ar" name="ar">
+          <label for="ar"> Ár </label>
+          <select id="ar" name="ar">
               <option value="2017">2017</option>
               <option value="2018">2018</option>
               <option value="2019">2019</option>
               <option value="2020">2020</option>
               <option value="2021">2021</option>
             </select>
-          </div>
-          <br>
-          <br>
         </div>
-        <div class="panta">
-          <input class="button" type="submit" value="Panta">
-        </div>
+        <br>
+        <br>
       </div>
-    </form>
-
-    <div class="FooterFam">
-      <ul class="footer">
-        <li>Fooþjónustan<br>
-        123-4567</li>
-        <li>Opið 12-13 alla daga<br>
-        Bargata 1<br>
-        900 Foobar</li>
-      </ul>
-      <ul class="footer2">
-        <li>© Fooþjónustan 2017</li>
-      </ul>
+      <div class="panta">
+        <input class="button" type="submit" value="Panta">
+      </div>
     </div>
+  </form>
+
+  <div class="FooterFam">
+    <ul class="footer">
+      <li>Fooþjónustan<br> 123-4567
+      </li>
+      <li>Opið 12-13 alla daga<br> Bargata 1<br> 900 Foobar</li>
+    </ul>
+    <ul class="footer2">
+      <li>© Fooþjónustan 2017</li>
+    </ul>
+  </div>
