@@ -96,9 +96,13 @@
   justify-content: center;
   margin-left: -20px;
   margin-right: -20px;
-  font-size: 2em;
+  font-size: 4em;
 }
 
+.head_font{
+  text-align: left;
+  padding: 10px;
+}
 .form{
   display: flex;
   flex-wrap: wrap;
