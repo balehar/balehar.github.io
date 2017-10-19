@@ -231,20 +231,26 @@ margin-top: -8em;
 }
 
 .myndatext{
+<<<<<<< HEAD
   display: flex;
+=======
+  display: inline-flex;
+>>>>>>> dd4c6fe3b8545fab3de3138af1e8825bde3ec528
   text-align: center;
+  justify-content: center;
 }
 
 .folkmynd{
+<<<<<<< HEAD
   flex:1;
   flex-wrap: wrap;
+=======
+  ;
+>>>>>>> dd4c6fe3b8545fab3de3138af1e8825bde3ec528
 
 }
 .folkText{
-  display:inline-flex;
   font-style: italic;
-  justify-content: center;
-  text-align: center;
 }
 
 
@@ -253,7 +259,7 @@ margin-top: -8em;
   height:20em;
   width: 20em;
   padding-top: 1em;
-  flex:1;
+  flex-flow: column wrap;
   max-width: 100%;
 }
 div{
