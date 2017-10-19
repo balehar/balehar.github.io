@@ -4,6 +4,14 @@
   font-size: 16px;
 }
 
+strong,h1,h2,h3,h4{
+    font-family: 'Roboto Slab',serif;
+}
+
+p{
+    font-family: 'Open Sans',serif;
+}
+
 .navbar{
   background-color: black;
   overflow:hidden;
@@ -18,7 +26,6 @@
   width: 100%;
   height:auto;
   margin: 0%;
-  font-family: 'Roboto Slab', serif;
 }
 
 .navbar a {
@@ -29,13 +36,11 @@
   font-size: 17px;
 }
 .navbar strong{
-  font-family: 'Roboto Slab', serif;
   float: left;
   margin-left: 0.5em;
   font-size: 1.5em;
 }
 .navbar input{
-  font-family: 'Roboto Slab',serif;
   font-size: 1em;
   margin-right: 1em;
   width: 4.5em;
@@ -45,7 +50,6 @@
 }
 
 .header{
-font-family: 'Robot Slab';
 background-image: url(bg.jpg);
 max-width: 100%;
 width: 100%;
@@ -173,7 +177,6 @@ margin-top: -8em;
   max-width: 100%;
   margin: 12em 0em 8em 0em;
   font-size: 1em;
-  font-family: 'Roboto Slab', serif;
 }
 .sirkill{
   width: 50%;
@@ -199,13 +202,13 @@ margin-top: -8em;
 }
 
 .myndatext{
-  display: inline-flex;
-  flex-wrap: wrap;
+  display: flex;
   text-align: center;
 }
 
 .folkmynd{
   flex:1;
+  flex-wrap: wrap;
 
 }
 .folkText{
@@ -244,7 +247,8 @@ div{
   margin: 0%;
 }
 .sector button{
-  width:10em;
+  width:8em;
+  font-size: 1.5em;
 }
 .footer{
   list-style: none;
@@ -276,9 +280,6 @@ padding: 1em;
   display: flex;
   margin-left: 6%;
   max-width: 88%;
-}
-.um h1,h3,strong{
-  font-family: 'Roboto Slab', serif;
 }
 
 .um_vh{
