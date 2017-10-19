@@ -231,22 +231,13 @@ margin-top: -8em;
 }
 
 .myndatext{
-<<<<<<< HEAD
-  display: flex;
-=======
   display: inline-flex;
->>>>>>> dd4c6fe3b8545fab3de3138af1e8825bde3ec528
   text-align: center;
   justify-content: center;
 }
 
 .folkmynd{
-<<<<<<< HEAD
-  flex:1;
-  flex-wrap: wrap;
-=======
   ;
->>>>>>> dd4c6fe3b8545fab3de3138af1e8825bde3ec528
 
 }
 .folkText{
