@@ -4,14 +4,6 @@
   font-size: 16px;
 }
 
-strong,h1,h2,h3,h4{
-    font-family: 'Roboto Slab',serif;
-}
-
-p{
-    font-family: 'Open Sans',serif;
-}
-
 .navbar{
   background-color: black;
   overflow:hidden;
@@ -26,6 +18,7 @@ p{
   width: 100%;
   height:auto;
   margin: 0%;
+  font-family: 'Roboto Slab', serif;
 }
 
 .navbar a {
@@ -36,11 +29,13 @@ p{
   font-size: 17px;
 }
 .navbar strong{
+  font-family: 'Roboto Slab', serif;
   float: left;
   margin-left: 0.5em;
   font-size: 1.5em;
 }
 .navbar input{
+  font-family: 'Roboto Slab',serif;
   font-size: 1em;
   margin-right: 1em;
   width: 4.5em;
@@ -50,18 +45,19 @@ p{
 }
 
 .header{
-background-image: url(bg.jpg);
-max-width: 100%;
-width: 100%;
-height: 55em;
-padding: 0;
-color: #000;
-background-size: cover;
-background-position: center;
-background-attachment: fixed;
-margin-top: -8em;
-  }
-
+  font-family: 'Open Sans', serif;
+  background-image: url(bg.jpg);
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  width: 100%;
+  height: 55em;
+  padding: 0;
+  color: black;
+  background-size: cover;
+  background-position: center;
+}
 .header p{
   font-size: 2em;
 }
@@ -85,35 +81,37 @@ margin-top: -8em;
 }
 
 .birt_1 {
-  opacity: 0;
   animation: birting ease-in 1;
   animation-fill-mode: forwards;
-  animation-duration: 2s;
-  animation-delay: 1s; }
+  animation-duration: 1s;
+  animation-delay: 1s;
+  opacity: 0;
+}
 
 .birt_2 {
-  opacity: 0;
   animation: birting ease-in 1;
   animation-fill-mode: forwards;
-  animation-duration: 2s;
-  animation-delay: 2s; }
+  animation-duration: 1s;
+  animation-delay: 2s;
+  opacity: 0;
+}
 
 .birt_3 {
-  opacity: 0;
   animation: birting ease-in 1;
   animation-fill-mode: forwards;
-  animation-duration: 2s;
-  animation-delay: 3s; }
+  animation-duration: 1s;
+  animation-delay: 3s;
+  opacity: 0;
+}
 
 @keyframes birting {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
 
 .head_k{
   background-image: url(bg-subpage.jpg);
-  width: 100%;
+  width: 110%;
   padding: 12px;
   text-align: left;
   color: #eee;
@@ -204,6 +202,7 @@ margin-top: -8em;
   max-width: 100%;
   margin: 12em 0em 8em 0em;
   font-size: 1em;
+  font-family: 'Roboto Slab', serif;
 }
 .sirkill{
   width: 50%;
@@ -229,13 +228,13 @@ margin-top: -8em;
 }
 
 .myndatext{
-  display: flex;
+  display: inline-flex;
+  flex-wrap: wrap;
   text-align: center;
 }
 
 .folkmynd{
   flex:1;
-  flex-wrap: wrap;
 
 }
 .folkText{
@@ -274,8 +273,7 @@ div{
   margin: 0%;
 }
 .sector button{
-  width:8em;
-  font-size: 1.5em;
+  width:10em;
 }
 .footer{
   list-style: none;
@@ -307,6 +305,9 @@ padding: 1em;
   display: flex;
   margin-left: 6%;
   max-width: 88%;
+}
+.um h1,h3,strong{
+  font-family: 'Roboto Slab', serif;
 }
 
 .um_vh{
