@@ -45,19 +45,19 @@
 }
 
 .header{
-  font-family: 'Open Sans', serif;
-  background-image: url(bg.jpg);
-  top: 0;
-  right: 0;
-  left: 0;
-  max-width: 100%;
-  width: 100%;
-  height: 55em;
-  padding: 0;
-  color: black;
-  background-size: cover;
-  background-position: center;
-}
+font-family: 'Robot Slab';
+background-image: url(bg.jpg);
+max-width: 100%;
+width: 100%;
+height: 55em;
+padding: 0;
+color: #000;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+margin-top: -8em;
+  }
+
 .header p{
   font-size: 2em;
 }
@@ -82,7 +82,7 @@
 
 .head_k{
   background-image: url(bg-subpage.jpg);
-  width: 110%;
+  width: 100%;
   padding: 12px;
   text-align: left;
   color: #eee;
